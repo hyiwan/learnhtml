@@ -88,6 +88,14 @@ main {
 
 .post-content {
     margin-bottom: 1rem;
+    font-size: 30px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    border: 5px dashed #f80707;
+    border-radius: 8px;
+    padding:25px
+
 }
 
 .read-more {
@@ -102,6 +110,20 @@ footer {
     margin-top: 3rem;
     text-align: center;
     color: #666;
+    font-size: 30px;
 }
-font-size:30px;
-background-color: #4a90e2;
+
+/* 添加响应式设计 */
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+    }
+    
+    .nav-links {
+        margin-top: 1rem;
+    }
+    
+    .pulse-emoji {
+        margin: 0 50px;
+    }
+}
