@@ -89,13 +89,13 @@ main {
 
 .post-content {
     margin-bottom: 1rem;
-    font-size: 30px;
+    font-size: 18px;
     line-height: 1.6;
     color: rgb(255, 255, 255);
     background-color: grey;
     border: 5px dashed #f80707;
     border-radius: 8px;
-    padding: 25px;
+    padding: 15px;
     max-width: 100%;
     overflow-wrap: break-word;
 }
